@@ -29,7 +29,7 @@
             android:label="@string/ambient_display_title"
             android:theme="@android:style/Theme.DeviceDefault.Settings">
             <intent-filter>
-                <action android:name="com.android.settings.ac	tion.EXTRA_SETTINGS" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
