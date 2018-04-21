@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 The LiquidRemix Project
+     Copyright (C) 2015 The CyanogenMod Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -11,14 +11,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
-    <!-- Whether device supports an alt. ambient display -->
-    <bool name="config_alt_ambient_display">true</bool>
-    <add-resource type="bool" name="config_alt_ambient_display"></add-resource>
-  
-    <!-- Whether to enable doze always on -->
-    <bool name="config_enableDozeAlwaysOn">false</bool>
-    <add-resource type="bool" name="config_enableDozeAlwaysOn"></add-resource>
+    <!-- ActionBar contentInsetStart -->
+    <dimen name="actionbar_subsettings_contentInsetStart">72dp</dimen>
 
 </resources>
+
