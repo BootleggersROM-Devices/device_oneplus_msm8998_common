@@ -39,6 +39,9 @@
             <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_doze" />  
+            <meta-data
+                android:name="android.max_aspect"
+                android:value="2.1" /> 
         </activity>
 
     </application>
